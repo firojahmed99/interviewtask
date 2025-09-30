@@ -30,8 +30,11 @@ class MyApp extends StatelessWidget {
     '/signin': (context) => SignInScreen(),
     '/signup': (context) => SignUpScreen(),
     '/success': (context) => SuccessPopup(),
-      '/forgot': (context) => ForgotPasswordScreen(),
-      '/reset': (context) => ResetPasswordScreen(),
+    '/forgot': (context) => ForgotPasswordScreen(),
+    '/reset': (context) => ResetPasswordScreen(),
+    '/location_screen': (context) => LocationScreen(),
+    '/language_selection_screen': (context) => LanguageSelectionScreen(),
+    '/verify_code_screen': (context) => VerifyCodeScreen(),
 
 
     },
